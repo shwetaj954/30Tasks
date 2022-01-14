@@ -18,6 +18,7 @@ h1{
 }
 p{
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
 }
 #switcher{
     list-style: none;
@@ -41,7 +42,10 @@ p{
     box-shadow: 1px 1px 1px 3px;
 }
 #graybutton{
-    background: gray;
+    background: url('./img/water-drop-rain-leaf-petal-wet-661719-pxhere.com\ \(1\).jpg');
+    background-repeat: none;
+    background-position:center;
+    background-size: cover;
 }
 #mountain{
     background: url('./img/landscape-tree-nature-forest-wilderness-mountain-547383-pxhere.com.jpg');

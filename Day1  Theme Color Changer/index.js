@@ -9,8 +9,9 @@ document.getElementById('leafbuton').onclick=switchleaf;
 
 
 function switchGray(){
-    document.getElementsByTagName('body')[0].style.backgroundColor="gray";
+    document.getElementsByTagName('body')[0].style.backgroundImage="url('./img/water-drop-rain-leaf-petal-wet-661719-pxhere.com\ \(1\).jpg')";
     document.getElementsByTagName('body')[0].style.color='white';
+    document.getElementsByTagName('body')[0].style.backgroundPosition="top center";
     
 }
 function switchmountain(){
