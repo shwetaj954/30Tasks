@@ -19,6 +19,7 @@ h1{
 p{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 #switcher{
     list-style: none;
