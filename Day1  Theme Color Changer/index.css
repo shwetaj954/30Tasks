@@ -6,6 +6,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 1.9em;
+    background:gray;
 }
 h1{
     text-align: center;
@@ -14,7 +15,9 @@ h1{
     color:blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 600;
-;
+}
+p{
+    text-align: center;
 }
 #switcher{
     list-style: none;
@@ -22,7 +25,7 @@ h1{
     padding: 0;
     overflow: hidden;
     justify-content: center;
-    display: flex
+    display: flex;
 }
 #switcher li {
     float:left;
@@ -31,7 +34,11 @@ h1{
     margin:0 15px 15px 0;
     border-radius: 30px;
     border:3px solid black;
+    cursor: pointer;
     
+}
+#switcher li:hover{
+    box-shadow: 1px 1px 1px 3px;
 }
 #graybutton{
     background: gray;
@@ -48,8 +55,11 @@ h1{
     background-position:center;
     background-size: cover;
 }
-#bluebuton{
-    background:blue;
+#techbuton{
+    background: url('./img/technology-star-vehicle-space-float-moon-1172923-pxhere.com.jpg');
+    background-repeat: none;
+    background-position:center;
+    background-size: cover;
 }
 #seabutton{
     background: url('./img/landscape-sea-nature-ocean-wilderness-light-1071666-pxhere.com.jpg');

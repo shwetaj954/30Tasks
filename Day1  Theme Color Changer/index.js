@@ -1,7 +1,7 @@
 document.getElementById('graybutton').onclick=switchGray;
 document.getElementById('mountain').onclick=switchmountain;
 document.getElementById('skybackground').onclick=switchsky;
-document.getElementById('bluebuton').onclick=switchblue;
+document.getElementById('techbuton').onclick=switchtech;
 document.getElementById('seabutton').onclick=switchsea;
 document.getElementById('flawerbuton').onclick=switchflawer;
 document.getElementById('treebuton').onclick=switchtree;
@@ -23,9 +23,10 @@ function switchsky(){
     document.getElementsByTagName('body')[0].style.color='white';
     document.getElementsByTagName('body')[0].style.backgroundPosition="top center";
 }
-function switchblue(){
-    document.getElementsByTagName('body')[0].style.backgroundColor='blue';
+function switchtech(){
+    document.getElementsByTagName('body')[0].style.backgroundImage="url('./img/technology-star-vehicle-space-float-moon-1172923-pxhere.com.jpg')";
     document.getElementsByTagName('body')[0].style.color='white';
+    document.getElementsByTagName('body')[0].style.backgroundPosition="top center";
 }
 function switchsea(){
     document.getElementsByTagName('body')[0].style.backgroundImage="url('./img/landscape-sea-nature-ocean-wilderness-light-1071666-pxhere.com.jpg')";
