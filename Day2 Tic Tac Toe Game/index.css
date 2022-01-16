@@ -25,6 +25,7 @@
 		border-radius: 6px;
 		font-size: 30px;
 		text-align: center;
+		color:blue;
 	}
 
 	/* Reset Button */
@@ -50,11 +51,10 @@
 	}
 	/* Player turn space */
 	#print {
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
-
-		color: dodgerblue;
-		font-size: 20px;
+		font-family: Verdana,Geneva, Tahoma, sans-serif;
+		font-weight: 500;
+		color: red;
+		font-size: 25px;
 	}
 
 	/* Main Container */
