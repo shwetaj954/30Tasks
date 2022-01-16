@@ -5,11 +5,13 @@
 		padding: 0%;
 	}
 	body{
-		background-image: url('./img/');
+		background-image: url('./img/img1.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 	/* Heading */
 	h1 {
-		color: orangered;
+		color: red;
 		font-size: 45px;
 	}
 
@@ -28,20 +30,24 @@
 	/* Reset Button */
 	#but {
 		box-sizing: border-box;
-		width: 95px;
-		height: 40px;
-		border: 1px solid dodgerblue;
+		
+		border: 1px solid blue;
 		margin: auto;
 		border-radius: 4px;
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
 
-		background-color: dodgerblue;
+		background-color: blue;
 		color: white;
 		font-size: 20px;
 		cursor: pointer;
+		padding:10px 20px 10px 20px;
 	}
-
+	#but:hover{
+		background-color: red;
+		color:blue;
+		border-color: blue;
+	}
 	/* Player turn space */
 	#print {
 		font-family: Verdana,
@@ -61,6 +67,9 @@
 		font-family: Verdana,
 			Geneva, Tahoma, sans-serif;
 			
-		color: dodgerblue;
+		color: blue;
 		font-size: 17px;
+	}
+	p b {
+		color:red;
 	}
