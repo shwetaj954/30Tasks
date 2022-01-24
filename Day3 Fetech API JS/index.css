@@ -36,3 +36,11 @@ h1{
     background-size:100% 100%;
     background-repeat: no-repeat;
 }
+.fetech-btn-cls{
+    color:white;
+    padding: 20px 20px 20px 20px;
+    background-color: blue;
+}
+.show-container{
+    
+}
